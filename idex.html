@@ -5,40 +5,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
     <header class="container text-center">
-        <img src="img/avatar.jpg" alt="avatar da isabella" class="rounded-circle" width="150" height="150" srcset="">
-        <p class="lead">Eu sou kiki_</p>
-        <h1>Eu ensino magia</h1>
-        <p>Sou uma bruxinha e entregadora de poções por todo o mundo. Veja sobre e como eu trabalho!</p>
+        <img src="img/avatar-perfil.png" alt="avatar da kiki" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Kiki</p>
+        <h1>Eu ensino Programação</h1>
+        <p>Sou uma bruxinha e entregadora de poções por todo o mundo. Veja sobre e como eu trabalho!!</p>
         <p>Minhas habilidades</p>
         <div>
-            <p class="badge bg-secondary">otima com feitiços</p>
+          <p class="badge bg-secondary">otima com feitiços</p>
             <p class="badge bg-secondary">rápida com entregas</p>
             <p class="badge bg-secondary">magia nas entregas</p>
             <p class="badge bg-secondary">falar com animais</p>
         </div>
     </header>
-    <main class="container">
+    <main class="container mt-5">
         <h2>Meus projetos</h2>
         <div class="row">
+            <!-- Projeto 1 -->
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="img/projeto-1,1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus livros
+                            favoritos, incluindo informações sobre os autores, datas de publicação e links para compra
+                            na Amazon. A página é estilizada com CSS para uma visualização agradável e usa fontes
+                            externas do Google Fonts.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2,2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Kiki potions
+                            Artificial</h5>
+                        <p class="card-text">“Kiki's Potions” é um encantador livro de poções criado pela jovem bruxinha Kiki, famosa por sua curiosidade e espírito aventureiro. Combinando ilustrações vibrantes e receitas mágicas, o livro serve como um guia introdutório à alquimia cotidiana, voltado tanto para aprendizes de bruxa quanto para leitores curiosos.
+
+Cada capítulo traz uma nova poção — desde tônicos de coragem até elixires de felicidade — acompanhada de instruções simples, ingredientes naturais e dicas da própria Kiki, sempre com seu inseparável gato Jiji ao lado. Mais do que um manual de feitiçaria, o livro transmite valores como responsabilidade, empatia e a beleza da magia no cotidiano.
+
+Perfeito para quem deseja explorar um mundo mágico com leveza e ternura.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Diário de Bordo da Vassoura Voadora
+                        </h5>
+                        <p class="card-text">“Diário de Bordo da Vassoura Voadora” é um relato mágico das viagens e descobertas de Kiki enquanto aprimora suas habilidades de voo e entrega feitiçada. Mais do que um diário comum, este livro mistura memórias pessoais, mapas ilustrados, reflexões mágicas e segredos do céu noturno.
+
+Com páginas repletas de anotações feitas à mão, desenhos de lugares visitados e pensamentos sobre crescer longe de casa, o livro convida o leitor a voar junto com Kiki em jornadas que misturam coragem, liberdade e aprendizado. É uma obra que inspira leitores a seguirem seus próprios caminhos, mesmo quando o vento muda de direção.
+
+Indicado para sonhadores, aventureiros e jovens bruxas de coração inquieto.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Como uma jovem bruxa curiosa e sonhadora, Kiki adora livros que alimentam a imaginação, inspiram coragem e celebram a magia do cotidiano. Sua estante é uma mistura de aventuras místicas, reflexões doces e, claro, histórias com gatos inteligentes. Abaixo, uma seleção especial dos títulos que ela mais recomenda:
+
+ The Little Witch
+Um conto sensível sobre uma bruxinha em treinamento que aprende que o verdadeiro poder vem da gentileza e da paciência. Repleto de ilustrações meigas e poções simples, é ideal para quem está começando sua jornada mágica.
+
+ A Broom to Moon
+Uma narrativa poética sobre uma jovem que parte sozinha em sua vassoura para tocar a lua. Um livro sobre autoconhecimento, liberdade e o brilho que nasce quando vencemos o medo de voar alto.
+
+ Wanderer’s Tales
+Histórias misteriosas e inspiradoras de viajantes solitários que encontram magia onde ninguém espera: em florestas silenciosas, mercados esquecidos e nas palavras de estranhos bondosos. Um favorito da Kiki para noites chuvosas.
+
+ Jiji’s Memoirs
+Escrito do ponto de vista do seu fiel gato, este livro irreverente e divertido traz observações afiadas sobre o mundo humano, conselhos para gatos aprendizes e confissões inusitadas de um felino que já viu (quase) de tudo.</p>
+                    <img src="img/projeto-1,1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://kiki.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>“Kiki’s Potions” é um livro mágico e acolhedor, que reúne as receitas de poções criadas pela jovem bruxa Kiki durante seus estudos e aventuras pelo mundo. Escrito com ternura e curiosidade, o livro mistura magia e natureza, explorando a conexão entre as emoções humanas e os ingredientes naturais — pétalas de flores, raízes antigas, gotas de orvalho e até mesmo risadas engarrafadas.
+
+Cada capítulo apresenta uma poção única, como o Elixir da Confiança, o Chá da Serenidade ou a Tinta Invisível para Bilhetes Secretos, sempre acompanhadas de comentários pessoais da Kiki, esboços feitos à mão e pequenas anotações com dicas preciosas. A presença de seu fiel companheiro Jiji traz um toque de humor e afeto às páginas.
+
+Mais do que um grimório de feitiçaria, este é um livro sobre crescer, experimentar, errar e tentar de novo — sobre encontrar magia nas coisas simples e usar o coração como o principal ingrediente de qualquer receita.
+
+Ideal para leitores jovens, amantes do fantástico ou qualquer um que precise de um pouco de magia no dia a dia.
+                    </p>
+                    <img src="img/projeto-2,2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://kiki.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/kiki/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este diário encantador acompanha a jornada da bruxinha Kiki logo após ela deixar sua casa para viver sua missão de independência. “Diário de Bordo da Vassoura Voadora” é uma coletânea de memórias, esboços, reflexões e mapas mágicos criados durante suas entregas e descobertas sobre o mundo — e sobre si mesma.
+
+Escrito como um verdadeiro diário de bordo, o livro transporta o leitor para os céus, mostrando o ponto de vista de quem observa a cidade e a natureza lá de cima, enfrentando ventos fortes, dúvidas internas e encontros inesquecíveis. Kiki escreve sobre os moradores das vilas por onde passa, os pequenos milagres que presencia e os desafios de crescer longe do conforto familiar.
+
+Intercalando relatos poéticos com páginas ilustradas que imitam um caderno antigo, este livro convida o leitor a viajar com Kiki e a refletir sobre coragem, liberdade, amizade e identidade. Jiji, claro, aparece como seu crítico mais perspicaz — e hilário.
+
+Uma leitura envolvente para jovens leitores, apaixonados por aventuras ou qualquer pessoa que já tenha sentido o frio na barriga de começar algo novo..</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/kiki">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por kiki</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
